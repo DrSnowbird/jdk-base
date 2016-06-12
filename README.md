@@ -1,14 +1,11 @@
-# Java 8 (1.8.0_92) JRE server + Maven 3.3.9 + PyDev 2.7.11
+# Java 8 (1.8.0_92) JRE server 
 
-[![](https://imagelayers.io/badge/openkbs/jre-base:latest.svg)](https://imagelayers.io/?images=openkbs/jre-base:latest 'Get your own badge on imagelayers.io')
 
 Components:
 
 * Oracle Java "1.8.0_92" JRE Runtime Environment for Server
   Java(TM) SE Runtime Environment (build 1.8.0_92-b14)
   Java HotSpot(TM) 64-Bit Server VM (build 25.92-b14, mixed mode)
-* Apache Maven 3.3.9
-* Python 2.7.11
 * Other tools: git wget unzip vim python python-setuptools python-dev python-numpy 
 
 ## Pull the image from Docker Repository
