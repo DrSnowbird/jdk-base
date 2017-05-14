@@ -11,7 +11,8 @@ imageTag=openkbs/jre-base
 version=1.0.0
 
 if [ ! "$version" == "" ]; then
-    docker build -t ${imageTag}:$version -t ${imageTag}:latest .
+    #docker build -t ${imageTag}:$version -t ${imageTag}:latest .
+    docker build -t ${imageTag}:latest .
     echo "---> To run in interactive mode: "
     echo "docker run --name <some-name> -it ${imageTag}:$version /bin/bash"
     echo "e.g."

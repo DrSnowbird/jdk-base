@@ -1,11 +1,10 @@
-# Java 8 (1.8.0_92) JRE server 
+# Java 8 (1.8.0_131) JRE server 
 
 
 Components:
 
-* Oracle Java "1.8.0_92" JRE Runtime Environment for Server
-  Java(TM) SE Runtime Environment (build 1.8.0_92-b14)
-  Java HotSpot(TM) 64-Bit Server VM (build 25.92-b14, mixed mode)
+* Oracle Java "1.8.0_131" JRE Runtime Environment for Server
+  Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
 * Other tools: git wget unzip vim python python-setuptools python-dev python-numpy 
 
 ## Pull the image from Docker Repository
