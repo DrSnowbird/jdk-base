@@ -3,7 +3,7 @@
 # use the latest LTS Ubuntu
 FROM ubuntu:xenial
 
-MAINTAINER openkbs
+MAINTAINER openkbs.org@gmail.com
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -17,14 +17,12 @@ RUN apt-get update \
 #### ---------------------------------------------------------------
 #### ---- Change below when upgrading version ----
 #### ---------------------------------------------------------------
-#ARG JAVA_MAJOR_VERSION=${JAVA_MAJOR_VERSION:-8}
-ARG JAVA_MAJOR_VERSION=8
-ARG JAVA_UPDATE_VERSION=${JAVA_UPDATE_VERSION:-152}
-ARG JAVA_BUILD_NUMBER=${JAVA_BUILD_NUMBER:-16}
-ARG JAVA_TOKEN=aa0333dd3019491ca4f6ddbe78cdb6d0
+ARG JAVA_MAJOR_VERSION=${JAVA_MAJOR_VERSION:-8}
+ARG JAVA_UPDATE_VERSION=${JAVA_UPDATE_VERSION:-162}
+ARG JAVA_BUILD_NUMBER=${JAVA_BUILD_NUMBER:-12}
+ARG JAVA_TOKEN=${JAVA_TOKEN:-0da788060d494f5095bf8624735fa2f1}
 
-# http://download.oracle.com/otn-pub/java/jdk/9.0.1+11/jdk-9.0.1_linux-x64_bin.tar.gz
-# #http://download.oracle.com/otn-pub/java/jdk/8u152-b16/aa0333dd3019491ca4f6ddbe78cdb6d0/jdk-8u152-linux-x64.tar.gz
+## http://download.oracle.com/otn-pub/java/jdk/8u162-b12/0da788060d494f5095bf8624735fa2f1/jdk-8u162-linux-x64.tar.gz
 
 #### ---------------------------------------------------------------
 #### ---- Don't change below unless you know what you are doing ----
